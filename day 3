@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,i,x,y,extrachair;
+	cin>>t;
+	for(i=0;i<t;i++)
+	{
+	    cin>>x>>y;
+	    if(y>x)
+	    {extrachair=0;}
+	    else
+	    {extrachair=x-y;}
+	    cout<<extrachair<<endl;
+	    
+	}
+	
+	return 0;
+}
