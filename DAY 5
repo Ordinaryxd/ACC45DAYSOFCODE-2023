@@ -1,0 +1,59 @@
+#include <iostream>
+using namespace std;
+
+// BEGINNERS 
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,i,x;
+	
+	cin>>t;
+	
+	for(i=0;i<t;i++)
+	{
+	    cin>>x;
+	    
+      
+          if(x>15)
+          {
+              cout<<"NO"<<endl;
+          }
+         else 
+          {
+              cout<<"YES"<<endl;
+          }
+	}
+	return 0;
+}
+
+
+// intermediate
+int main() {
+	// your code goes here
+	int t,n,i,x=1;
+	
+	cin>>t;
+	
+	for(i=0;i<t;i++)
+	{
+	    cin>>n;
+	    for(x=1;x<=n;x++)
+      { 
+      
+          if(x==n-1)
+          {
+              cout<<n-1<<endl;
+          }
+         else if(x==n)
+          {
+              cout<<n<<endl;
+          }
+     n--; }
+      
+      
+      
+      
+      	}
+	return 0;
+}
