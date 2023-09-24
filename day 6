@@ -1,0 +1,42 @@
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	int x,y;
+	cin>>x>>y;
+	if(y*10<x)
+		cout<<"Yes"<<endl;
+	else
+		cout<<"No"<<endl;
+}
+	return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,poa,pob,poc;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>poa>>pob>>poc;
+	    if(poa+poc>pob || pob==poa==poc)
+	    {
+	        cout<<poa+poc<<endl;
+	    }
+	    else {
+	        cout<<pob<<endl;
+	    }
+
+	  
+	}
+	return 0;
+}
