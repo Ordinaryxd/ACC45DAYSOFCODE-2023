@@ -1,0 +1,40 @@
+// beginners
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,x,y,i;
+	cin>>t;
+	while(t--)
+	{ cin>>x>>y;
+      if((y/x)*x<y)
+	    { cout<<y/x<<endl;}
+	    else 
+	    { cout<<y/x-1<<endl;}
+	    
+	}
+	return 0;
+}
+// intermediate
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,a1,a2,a3,a4,a5,i,p;
+	cin>>t;
+	while(t--)
+	{ cin>>a1>>a2>>a3>>a4>>a5>>p;
+	 if((a1+a2+a3+a4+a5)*p<=120)
+	 {
+	     cout<<"no"<<endl;
+	     
+	 }
+	 else
+	 {
+	     cout<<"yes"<<endl;
+	 }
+	}
+	return 0;
+}
