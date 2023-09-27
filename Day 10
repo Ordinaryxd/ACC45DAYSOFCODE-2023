@@ -1,0 +1,41 @@
+// beginner's
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x,y,t,i;
+	cin>>x;
+	while(t--)
+	{ cin>>x>>y;
+	cout<<x/y<<endl;
+	    
+	}
+	return 0;
+}
+
+//intermediate
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int a,b, c,d,e,t,i;
+	cin>>t;
+	while(t--)
+	{ cin>>a>>b>>c>>d>>e;
+	if(a+b<=d ||a +c <=d || b+c <=d)
+	{ if(a<=e ||b<=e||c<=e)
+	  {cout<<"YES"<<endl;}
+	  else
+	  {cout<<"NO"<<endl;}
+	  
+	}
+	else
+	  {cout<<"NO"<<endl;}
+	  
+	    
+	}
+	return 0;
+}
