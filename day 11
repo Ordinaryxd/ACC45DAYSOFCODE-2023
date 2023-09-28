@@ -1,0 +1,21 @@
+// beginners
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here 
+	int t,n,m;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>n>>m;
+	    if(36*m>=n)
+	    {
+	        cout<<"YES"<<endl;
+	    }
+	    else{
+	        cout<<"NO"<<endl;
+	    }
+	}
+	return 0;
+}
